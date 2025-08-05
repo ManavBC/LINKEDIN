@@ -5,7 +5,7 @@ on:
   schedule:
     # Runs at 1:00 PM Australian Western Standard Time (Perth)
     # This is 5:00 AM UTC
-    - cron: '0 5 * * *'
+    - cron: '3 0 0 5 * * *'
   workflow_dispatch: # Allows manual trigger
 
 # Add permissions for the bot to push
